@@ -223,3 +223,13 @@ X_test, y_test= makeTensors(test_data)
 
 model = torch.load("./model.pt")
 accuracy(X_test, model, y_test, "cuda")
+
+
+
+"""
+Result:
+training_accuracy : 91.6725 %
+validation_accuracy: 71.6% 
+"""
+
+
